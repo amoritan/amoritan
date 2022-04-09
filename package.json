@@ -1,0 +1,19 @@
+{
+  "name": "andresmoritan",
+  "version": "3.0.0",
+  "description": "Andres Moritan",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresmoritan/andresmoritan.git"
+  },
+  "author": "Andres Moritan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/andresmoritan/andresmoritan/issues"
+  },
+  "homepage": "https://github.com/andresmoritan/andresmoritan#readme"
+}
