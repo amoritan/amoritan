@@ -5,8 +5,7 @@ body {
 
   a {
     color: inherit;
-    text-decoration: none;
-    border-bottom: dotted 0.0625em;
+    text-decoration: underline dotted;
   }
 
   main {
@@ -25,6 +24,10 @@ body {
       font-size: 2rem;
       font-weight: bold;
       margin: 2rem 0;
+
+      abbr {
+        text-decoration: none;
+      }
     }
   }
 
