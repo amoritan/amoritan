@@ -1,5 +1,73 @@
 body {
   margin: 0;
   font-size: 1rem;
-  font-family: sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: dotted 0.0625em;
+  }
+
+  main {
+    margin: 2rem 1rem;
+
+    img {
+      width: 8rem;
+      height: 8rem;
+      margin: 0 auto;
+      display: block;
+      border: solid 0.125rem;
+      border-radius: 100%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 2rem 0;
+    }
+  }
+
+  aside.skyscanner {
+    border-left: solid 0.125rem #0770e3;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+      color: #444560;
+      font-style: italic;
+    }
+  }
+
+  footer {
+    border-top: solid 0.0625rem lightgray;
+    margin: 0 1rem;
+    padding: 1rem 0;
+  }
+
+  main,
+  footer {
+    max-width: 48rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    background: black;
+
+    aside.skyscanner {
+      a {
+        color: #f1f2f8;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 48rem) {
+    main,
+    footer {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
