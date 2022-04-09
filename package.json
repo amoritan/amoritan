@@ -4,7 +4,11 @@
   "description": "Andres Moritan",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve . & npm run build:style -- -w",
+    "build": "npm run build:style",
+    "build:style": "postcss --no-map --use autoprefixer postcss-nested --parser postcss-scss style.scss -o style.css",
+    "publish": "npm install && npm run build",
+    "lint": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/andresmoritan/andresmoritan/issues"
   },
-  "homepage": "https://github.com/andresmoritan/andresmoritan#readme"
+  "homepage": "https://github.com/andresmoritan/andresmoritan#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-scss": "^4.0.3",
+    "prettier": "^2.6.2",
+    "serve": "^13.0.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
 }
