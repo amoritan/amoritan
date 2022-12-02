@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/andresmoritan/andresmoritan#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "postcss-cli": "^9.1.0",
-    "postcss-nested": "^5.0.6",
-    "postcss-scss": "^4.0.3",
-    "prettier": "^2.6.2",
-    "serve": "^13.0.2"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "postcss-nested": "^6.0.0",
+    "postcss-scss": "^4.0.6",
+    "prettier": "^2.8.0",
+    "serve": "^14.1.2"
   },
   "prettier": {
     "singleQuote": true
