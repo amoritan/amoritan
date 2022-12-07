@@ -31,14 +31,14 @@ body {
     }
   }
 
-  aside.skyscanner {
-    border-left: solid 0.125rem #0770e3;
+  aside.spotify {
+    border-left: solid 0.125rem #1ed760;
     padding: 0.5rem 0 0.5rem 0.5rem;
     a {
       display: block;
       width: 100%;
       height: 100%;
-      color: #444560;
+      color: #191414;
       font-style: italic;
       text-decoration: none;
     }
@@ -59,9 +59,9 @@ body {
     color: white;
     background: black;
 
-    aside.skyscanner {
+    aside.spotify {
       a {
-        color: #f1f2f8;
+        color: white;
       }
     }
   }
