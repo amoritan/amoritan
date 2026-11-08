@@ -3,11 +3,12 @@
   "version": "3.0.0",
   "description": "Andres Moritan",
   "main": "script.js",
+  "packageManager": "pnpm@12.18.0",
   "scripts": {
-    "start": "serve . & npm run build:style -- -w",
-    "build": "npm run build:style",
+    "start": "serve . & pnpm build:style -w",
+    "build": "pnpm build:style",
     "build:style": "postcss --no-map --use autoprefixer postcss-nested --parser postcss-scss style.scss -o style.css",
-    "publish": "npm install && npm run build",
+    "publish": "pnpm install && pnpm build",
     "lint": "prettier --write ."
   },
   "repository": {
